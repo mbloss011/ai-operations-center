@@ -1,0 +1,5 @@
+{
+  "servers": [
+    {"name": "filesystem", "transport": "stdio", "command": "npx", "args": ["-y", "@modelcontextprotocol/server-filesystem", "/tmp"], "enabled": false, "note": "Example only — disabled by default. Enable and scope the path before use."}
+  ]
+}

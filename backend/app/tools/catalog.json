@@ -1,0 +1,3061 @@
+{
+  "source": "TinyWow catalog as supplied by the user, 2026-10-28 (deduplicated)",
+  "count": 235,
+  "tools": [
+    {
+      "id": "free_pdf_editor",
+      "name": "Free PDF Editor",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Free PDF Editor. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "merge_pdf",
+      "name": "Merge PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Merge PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "split_pdf",
+      "name": "Split PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Split PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "split_into_multiple_excel_files",
+      "name": "Split into multiple Excel files",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Split into multiple Excel files. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "compress_pdf",
+      "name": "Compress PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Compress PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_word",
+      "name": "Convert PDF to Word",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to Word. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_word_to_pdf",
+      "name": "Convert Word to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert Word to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_jpg",
+      "name": "Convert PDF to JPG",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_png",
+      "name": "Convert PDF to PNG",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_tiff",
+      "name": "Convert PDF to TIFF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to TIFF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_text",
+      "name": "Convert PDF to Text",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to Text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "extract_text_from_pdf",
+      "name": "Extract text from PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Extract text from PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "extract_tables_from_pdf_to_csv",
+      "name": "Extract tables from PDF to CSV",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Extract tables from PDF to CSV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_xlsx",
+      "name": "Convert PDF to XLSX",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to XLSX. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_powerpoint",
+      "name": "Convert PDF to PowerPoint",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to PowerPoint. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_powerpoint_to_pdf",
+      "name": "Convert PowerPoint to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PowerPoint to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_epub",
+      "name": "Convert PDF to EPUB",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to EPUB. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_epub_to_pdf",
+      "name": "Convert EPUB to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert EPUB to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_mobi",
+      "name": "Convert PDF to MOBI",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to MOBI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mobi_to_pdf",
+      "name": "Convert MOBI to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert MOBI to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_pdf_to_azw3",
+      "name": "Convert PDF to AZW3",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert PDF to AZW3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_azw3_to_pdf",
+      "name": "Convert AZW3 to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert AZW3 to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_ms_outlook_file_to_pdf",
+      "name": "Convert MS Outlook file to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Convert MS Outlook file to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "download_images_from_pdf",
+      "name": "Download images from PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Download images from PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "remove_password_from_pdf",
+      "name": "Remove password from PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Remove password from PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_password_to_pdf",
+      "name": "Add password to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Add password to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "remove_watermark_from_pdf",
+      "name": "Remove Watermark from PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Remove Watermark from PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_page_numbers_to_pdf",
+      "name": "Add page numbers to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Add page numbers to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "stamp_an_image_over_a_pdf",
+      "name": "Stamp an image over a PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Stamp an image over a PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_images_to_pdf",
+      "name": "Add images to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Add images to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_text_to_pdf",
+      "name": "Add Text to PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Add Text to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "e_sign_a_pdf",
+      "name": "E-sign a PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: E-sign a PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "rearrange_pages_of_a_pdf",
+      "name": "Rearrange pages of a PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Rearrange pages of a PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "rotate_pages_in_a_pdf",
+      "name": "Rotate pages in a PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Rotate pages in a PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "delete_pages_from_a_pdf",
+      "name": "Delete pages from a PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Delete pages from a PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "crop_pdf",
+      "name": "Crop PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Crop PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "translate_pdf",
+      "name": "Translate PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Translate PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "free_pdf_creator",
+      "name": "Free PDF Creator",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Free PDF Creator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "upload_images_to_create_a_pdf",
+      "name": "Upload images to create a PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Upload images to create a PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "enter_a_url_to_capture_as_pdf",
+      "name": "Enter a URL to capture as PDF",
+      "category": "pdf",
+      "kind": "pdf",
+      "description": "TinyWow-style tool: Enter a URL to capture as PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "remove_background",
+      "name": "Remove Background",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Remove Background. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "resize_image",
+      "name": "Resize Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Resize Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "compress_image",
+      "name": "Compress Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Compress Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "increase_image_resolution",
+      "name": "Increase image resolution",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Increase image resolution. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_image_generator",
+      "name": "AI Image Generator",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: AI Image Generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "text_to_image",
+      "name": "Text to Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Text to Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_art_generator",
+      "name": "AI Art Generator",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: AI Art Generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "image_to_text",
+      "name": "Image to Text",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Image to Text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "extract_text_from_image",
+      "name": "Extract text from image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Extract text from image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "change_background_of_image",
+      "name": "Change Background of Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Change Background of Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "remove_objects_from_photo",
+      "name": "Remove Objects from Photo",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Remove Objects from Photo. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "remove_person_from_photo",
+      "name": "Remove person from photo",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Remove person from photo. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "cleanup_picture",
+      "name": "Cleanup picture",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Cleanup picture. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "unblur_image",
+      "name": "Unblur Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Unblur Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "sharpen_image",
+      "name": "Sharpen Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Sharpen Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "pixelate_photo",
+      "name": "Pixelate photo",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Pixelate photo. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "color_your_photo",
+      "name": "Color your photo",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Color your photo. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "make_photo_black_and_white",
+      "name": "Make photo black and white",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Make photo black and white. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "make_background_transparent",
+      "name": "Make background transparent",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Make background transparent. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "crop_image",
+      "name": "Crop image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Crop image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "flip_image",
+      "name": "Flip Image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Flip Image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "rotate_image",
+      "name": "Rotate image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Rotate image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_border_to_image",
+      "name": "Add border to image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Add border to image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_text_to_image",
+      "name": "Add text to image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Add text to image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "image_background_blur",
+      "name": "Image background blur",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Image background blur. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "combine_images_online",
+      "name": "Combine Images Online",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Combine Images Online. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "create_photo_collages",
+      "name": "Create Photo Collages",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Create Photo Collages. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "profile_photo_maker",
+      "name": "Profile photo maker",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Profile photo maker. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "make_round_image",
+      "name": "Make round image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Make round image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "cut_image_into_pieces",
+      "name": "Cut image into pieces",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Cut image into pieces. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "view_metadata_for_image",
+      "name": "View metadata for image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: View metadata for image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "translate_your_image",
+      "name": "Translate your image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Translate your image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "remove_watermark_from_photo",
+      "name": "Remove watermark from photo",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Remove watermark from photo. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "download_chart_as_image",
+      "name": "Download chart as image",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Download chart as image. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_heic_to_jpg",
+      "name": "Convert HEIC to JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert HEIC to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_heic_to_png",
+      "name": "Convert HEIC to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert HEIC to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_webp_to_png",
+      "name": "Convert WebP to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert WebP to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_png_to_jpg",
+      "name": "Convert PNG to JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PNG to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_jpg_to_png",
+      "name": "Convert JPG to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert JPG to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_png_to_webp",
+      "name": "Convert PNG to WebP",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PNG to WebP. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_jpg_to_webp",
+      "name": "Convert JPG to WebP",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert JPG to WebP. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_png_to_svg",
+      "name": "Convert PNG to SVG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PNG to SVG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_jpg_to_svg",
+      "name": "Convert JPG to SVG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert JPG to SVG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_svg_to_png",
+      "name": "Convert SVG to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert SVG to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_webp_to_gif",
+      "name": "Convert WebP to GIF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert WebP to GIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_jpg",
+      "name": "Convert GIF to JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert GIF to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_png",
+      "name": "Convert GIF to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert GIF to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_tiff_to_jpg",
+      "name": "Convert TIFF to JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert TIFF to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_tiff_to_png",
+      "name": "Convert TIFF to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert TIFF to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_eps_to_png",
+      "name": "Convert EPS to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert EPS to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_eps_to_jpg",
+      "name": "Convert EPS to JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert EPS to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_psd_to_jpg",
+      "name": "Convert PSD to JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PSD to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_psd_to_png",
+      "name": "Convert PSD to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PSD to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_psd_to_svg",
+      "name": "Convert PSD to SVG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PSD to SVG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_psd_to_pdf",
+      "name": "Convert PSD to PDF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PSD to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_jpg_to_tiff",
+      "name": "Convert JPG to TIFF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert JPG to TIFF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_png_to_tiff",
+      "name": "Convert PNG to TIFF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PNG to TIFF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_png_to_avif",
+      "name": "Convert PNG to AVIF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PNG to AVIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_jpg_to_avif",
+      "name": "Convert JPG to AVIF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert JPG to AVIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_webp_to_avif",
+      "name": "Convert WebP to AVIF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert WebP to AVIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_heic_to_avif",
+      "name": "Convert HEIC to AVIF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert HEIC to AVIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_avif",
+      "name": "Convert GIF to AVIF",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert GIF to AVIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_png_to_eps",
+      "name": "Convert PNG to EPS",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PNG to EPS. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_psd_to_ai",
+      "name": "Convert PSD to AI",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert PSD to AI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_font_awesome_to_png",
+      "name": "Convert Font Awesome to PNG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Convert Font Awesome to PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "upload_webp_video_and_download_frames_as_jpg",
+      "name": "Upload WebP video and download frames as JPG",
+      "category": "image",
+      "kind": "image",
+      "description": "TinyWow-style tool: Upload WebP video and download frames as JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "compress_video",
+      "name": "Compress Video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Compress Video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "trim_video",
+      "name": "Trim video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Trim video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "resize_video_resolution",
+      "name": "Resize video resolution",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Resize video resolution. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_gif",
+      "name": "Convert MP4 to GIF",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to GIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_mp3",
+      "name": "Convert MP4 to MP3",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to MP3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_avi",
+      "name": "Convert MP4 to AVI",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to AVI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_mov",
+      "name": "Convert MP4 to MOV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to MOV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_webm",
+      "name": "Convert MP4 to WEBM",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to WEBM. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_wav",
+      "name": "Convert MP4 to WAV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to WAV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mp4_to_ogg",
+      "name": "Convert MP4 to OGG",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MP4 to OGG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mov_to_mp4",
+      "name": "Convert MOV to MP4",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MOV to MP4. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mov_to_avi",
+      "name": "Convert MOV to AVI",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MOV to AVI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mov_to_gif",
+      "name": "Convert MOV to GIF",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MOV to GIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mov_to_mp3",
+      "name": "Convert MOV to MP3",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MOV to MP3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mov_to_wav",
+      "name": "Convert MOV to WAV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MOV to WAV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_avi_to_mp4",
+      "name": "Convert AVI to MP4",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert AVI to MP4. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_avi_to_mov",
+      "name": "Convert AVI to MOV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert AVI to MOV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_avi_to_mp3",
+      "name": "Convert AVI to MP3",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert AVI to MP3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_avi_to_gif",
+      "name": "Convert AVI to GIF",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert AVI to GIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_avi_to_mkv",
+      "name": "Convert AVI to MKV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert AVI to MKV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mkv_to_mp4",
+      "name": "Convert MKV to MP4",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MKV to MP4. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mkv_to_avi",
+      "name": "Convert MKV to AVI",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MKV to AVI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mkv_to_mov",
+      "name": "Convert MKV to MOV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MKV to MOV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mkv_to_gif",
+      "name": "Convert MKV to GIF",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MKV to GIF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mkv_to_mp3",
+      "name": "Convert MKV to MP3",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert MKV to MP3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_webm_to_mp4",
+      "name": "Convert WEBM to MP4",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert WEBM to MP4. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_webm_to_mov",
+      "name": "Convert WEBM to MOV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert WEBM to MOV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_webm_to_mp3",
+      "name": "Convert WEBM to MP3",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert WEBM to MP3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_mp4",
+      "name": "Convert GIF to MP4",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert GIF to MP4. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_mov",
+      "name": "Convert GIF to MOV",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert GIF to MOV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_webm",
+      "name": "Convert GIF to WEBM",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert GIF to WEBM. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_gif_to_apng",
+      "name": "Convert GIF to APNG",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert GIF to APNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_video_to_text",
+      "name": "Convert video to text",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Convert video to text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "transcribe_audio_to_text",
+      "name": "Transcribe audio to text",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Transcribe audio to text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "extract_audio_from_video",
+      "name": "Extract audio from video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Extract audio from video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "add_subtitles_to_video",
+      "name": "Add subtitles to video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Add subtitles to video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "mute_video",
+      "name": "Mute video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Mute video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "download_video_from_instagram",
+      "name": "Download Video from Instagram",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Download Video from Instagram. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "download_video_from_tiktok",
+      "name": "Download Video from TikTok",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Download Video from TikTok. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "download_video_from_twitter",
+      "name": "Download Video from Twitter",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Download Video from Twitter. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "download_video_from_facebook",
+      "name": "Download Video from Facebook",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Download Video from Facebook. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "upload_video_and_convert_to_webp",
+      "name": "Upload video and convert to WebP",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Upload video and convert to WebP. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "compress_mov_video",
+      "name": "Compress MOV video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Compress MOV video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "compress_avi_video",
+      "name": "Compress AVI video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Compress AVI video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "compress_mkv_video",
+      "name": "Compress MKV video",
+      "category": "video",
+      "kind": "video",
+      "description": "TinyWow-style tool: Compress MKV video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "paragraph_writer",
+      "name": "Paragraph Writer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Paragraph Writer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "sentence_rewriter",
+      "name": "Sentence Rewriter",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Sentence Rewriter. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "essay_writer",
+      "name": "Essay Writer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Essay Writer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "article_writer",
+      "name": "Article Writer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Article Writer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "content_improver",
+      "name": "Content Improver",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Content Improver. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "grammar_fixer",
+      "name": "Grammar Fixer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Grammar Fixer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "summarize_text",
+      "name": "Summarize text",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Summarize text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "summarize_pdf_document",
+      "name": "Summarize PDF Document",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Summarize PDF Document. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "summarize_podcast",
+      "name": "Summarize Podcast",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Summarize Podcast. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "summarize_youtube_video",
+      "name": "Summarize YouTube Video",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Summarize YouTube Video. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "paraphrasing_content",
+      "name": "Paraphrasing Content",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Paraphrasing Content. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_rephraser",
+      "name": "AI Rephraser",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: AI Rephraser. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "rephrase_a_paragraph",
+      "name": "Rephrase a paragraph",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Rephrase a paragraph. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "rewrite_an_article",
+      "name": "Rewrite an article",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Rewrite an article. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "rewrite_your_article_title",
+      "name": "Rewrite your article title",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Rewrite your article title. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "tone_of_voice_tool",
+      "name": "Tone of Voice Tool",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Tone of Voice Tool. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "explain_it_like_i_am_five",
+      "name": "Explain it like I am five",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Explain it like I am five. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_a_story",
+      "name": "Generate a Story",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate a Story. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_a_blog_post",
+      "name": "Generate a blog post",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate a blog post. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "write_blog_post_ideas",
+      "name": "Write Blog Post Ideas",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Write Blog Post Ideas. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "write_blog_outline",
+      "name": "Write Blog Outline",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Write Blog Outline. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_a_simple_content_plan",
+      "name": "Generate a simple content plan",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate a simple content plan. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_a_press_release",
+      "name": "Generate a press release",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate a press release. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "podcast_script_generator",
+      "name": "Podcast Script Generator",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Podcast Script Generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "youtube_script_generator",
+      "name": "YouTube Script Generator",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: YouTube Script Generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "tiktok_script_writer",
+      "name": "TikTok Script Writer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: TikTok Script Writer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_instagram_caption",
+      "name": "Generate Instagram caption",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate Instagram caption. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_instagram_story_ideas",
+      "name": "Generate Instagram story ideas",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate Instagram story ideas. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_linkedin_post",
+      "name": "Generate LinkedIn post",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate LinkedIn post. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_facebook_ad_headlines",
+      "name": "Generate Facebook ad headlines",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate Facebook ad headlines. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "twitter_generator",
+      "name": "Twitter generator",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Twitter generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_meta_description",
+      "name": "Generate meta description",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate meta description. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_business_name",
+      "name": "Generate business name",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate business name. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_business_plan",
+      "name": "Generate business plan",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate business plan. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_business_slogan",
+      "name": "Generate business slogan",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate business slogan. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_real_estate_descriptions",
+      "name": "Generate Real Estate Descriptions",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate Real Estate Descriptions. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_trivia_questions",
+      "name": "Generate Trivia Questions",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate Trivia Questions. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_faq_for_a_blog",
+      "name": "Generate FAQ for a blog",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate FAQ for a blog. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_nda",
+      "name": "Generate NDA",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate NDA. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_privacy_policy",
+      "name": "Generate privacy policy",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate privacy policy. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_purchase_agreement",
+      "name": "Generate purchase agreement",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate purchase agreement. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_bill_of_sale",
+      "name": "Generate bill of sale",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate bill of sale. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_cold_email",
+      "name": "Generate cold email",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate cold email. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_landing_page_copy",
+      "name": "Generate landing page copy",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Generate landing page copy. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "listicle_writer",
+      "name": "Listicle Writer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Listicle Writer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_seo_optimized_article_generator",
+      "name": "AI SEO Optimized Article Generator",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: AI SEO Optimized Article Generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_seo_post_generator",
+      "name": "AI SEO Post Generator",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: AI SEO Post Generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_content_detector",
+      "name": "AI Content Detector",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: AI Content Detector. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "ai_humanizer",
+      "name": "AI Humanizer",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: AI Humanizer. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "content_brief_generator",
+      "name": "Content brief generator",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Content brief generator. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "interactive_writing_assistant",
+      "name": "Interactive writing assistant",
+      "category": "ai_writing",
+      "kind": "llm",
+      "description": "TinyWow-style tool: Interactive writing assistant. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_xml_to_excel",
+      "name": "Convert XML to Excel",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert XML to Excel. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_excel_to_xml",
+      "name": "Convert Excel to XML",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert Excel to XML. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_csv_to_excel",
+      "name": "Convert CSV to Excel",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert CSV to Excel. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_xml_to_csv",
+      "name": "Convert XML to CSV",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert XML to CSV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_xml_to_json",
+      "name": "Convert XML to JSON",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert XML to JSON. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_csv_to_json",
+      "name": "Convert CSV to JSON",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert CSV to JSON. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_json_to_xml",
+      "name": "Convert JSON to XML",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert JSON to XML. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_csv_to_xml",
+      "name": "Convert CSV to XML",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert CSV to XML. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_excel_to_csv",
+      "name": "Convert Excel to CSV",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert Excel to CSV. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_epub_to_mobi",
+      "name": "Convert EPUB to MOBI",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert EPUB to MOBI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mobi_to_epub",
+      "name": "Convert MOBI to EPUB",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert MOBI to EPUB. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_azw3_to_epub",
+      "name": "Convert AZW3 to EPUB",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert AZW3 to EPUB. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_epub_to_azw3",
+      "name": "Convert EPUB to AZW3",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert EPUB to AZW3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_mobi_to_azw3",
+      "name": "Convert MOBI to AZW3",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert MOBI to AZW3. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_azw3_to_mobi",
+      "name": "Convert AZW3 to MOBI",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert AZW3 to MOBI. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsd_to_pdf",
+      "name": "Convert VSD to PDF",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSD to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsdx_to_docx",
+      "name": "Convert VSDX to DOCX",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSDX to DOCX. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsdx_to_pptx",
+      "name": "Convert VSDX to PPTX",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSDX to PPTX. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsdx_to_pdf",
+      "name": "Convert VSDX to PDF",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSDX to PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsd_to_docx",
+      "name": "Convert VSD to DOCX",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSD to DOCX. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsd_to_pptx",
+      "name": "Convert VSD to PPTX",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSD to PPTX. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_vsd_to_jpg",
+      "name": "Convert VSD to JPG",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert VSD to JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "create_zip_file_online",
+      "name": "Create Zip file online",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Create Zip file online. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "convert_epoch_to_human_readable_date",
+      "name": "Convert epoch to human-readable date",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Convert epoch to human-readable date. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "count_words_in_your_text",
+      "name": "Count words in your text",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Count words in your text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_qr_code",
+      "name": "Generate QR code",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Generate QR code. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_lorem_ipsum_placeholder_text",
+      "name": "Generate Lorem Ipsum placeholder text",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Generate Lorem Ipsum placeholder text. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "detect_cms_by_url",
+      "name": "Detect CMS by URL",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Detect CMS by URL. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "enter_a_url_and_view_all_the_redirects",
+      "name": "Enter a URL and view all the redirects",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Enter a URL and view all the redirects. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "enter_a_url_and_receive_the_pc_mobile_web_page_as_pdf",
+      "name": "Enter a URL and receive the PC/mobile web page as PDF",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Enter a URL and receive the PC/mobile web page as PDF. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "enter_a_url_and_receive_the_pc_mobile_web_page_as_jpg",
+      "name": "Enter a URL and receive the PC/mobile web page as JPG",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Enter a URL and receive the PC/mobile web page as JPG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "enter_a_url_and_receive_the_pc_mobile_web_page_as_png",
+      "name": "Enter a URL and receive the PC/mobile web page as PNG",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Enter a URL and receive the PC/mobile web page as PNG. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    },
+    {
+      "id": "generate_memes_easily",
+      "name": "Generate memes easily",
+      "category": "file_utility",
+      "kind": "file",
+      "description": "TinyWow-style tool: Generate memes easily. Callable from agent/tool nodes.",
+      "inputs": [
+        "input"
+      ],
+      "outputs": [
+        "output"
+      ]
+    }
+  ]
+}

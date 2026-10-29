@@ -1,0 +1,16 @@
+{
+  "name": "PDF to blog post",
+  "graph": {
+    "nodes": [
+      {"id": "pdf_input", "type": "input", "position": {"x": 0, "y": 100}, "data": {"label": "PDF file", "kind": "file"}},
+      {"id": "extract", "type": "tool", "position": {"x": 300, "y": 100}, "data": {"label": "Extract text", "tool": "extract_text_from_pdf", "inputs": {"input": "{{pdf_input.output}}"}}},
+      {"id": "blog", "type": "agent", "position": {"x": 600, "y": 100}, "data": {"label": "Write blog post", "model": "ornith-1.5-9b", "skill": "document-summarizer", "prompt": "Turn this into a blog post:\n{{extract.output}}"}},
+      {"id": "page", "type": "output", "position": {"x": 900, "y": 100}, "data": {"label": "Blog page", "kind": "webpage", "template": "{{blog.output}}"}}
+    ],
+    "edges": [
+      {"id": "e1", "source": "pdf_input", "target": "extract"},
+      {"id": "e2", "source": "extract", "target": "blog"},
+      {"id": "e3", "source": "blog", "target": "page"}
+    ]
+  }
+}

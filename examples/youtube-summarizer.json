@@ -1,0 +1,16 @@
+{
+  "name": "YouTube / URL summarizer (Opal-style)",
+  "graph": {
+    "nodes": [
+      {"id": "url_input", "type": "input", "position": {"x": 0, "y": 100}, "data": {"label": "Video / page URL", "kind": "url"}},
+      {"id": "scrape", "type": "scraper", "position": {"x": 300, "y": 100}, "data": {"label": "Fetch page", "url": "{{url_input.output}}"}},
+      {"id": "summarize", "type": "agent", "position": {"x": 600, "y": 100}, "data": {"label": "Summarize", "model": "ornith-1.5-9b", "prompt": "Summarize this page in 200 words and list 5 key points:\n{{scrape.output}}"}},
+      {"id": "page", "type": "output", "position": {"x": 900, "y": 100}, "data": {"label": "Summary page", "kind": "webpage", "template": "# Summary\n\n{{summarize.output}}"}}
+    ],
+    "edges": [
+      {"id": "e1", "source": "url_input", "target": "scrape"},
+      {"id": "e2", "source": "scrape", "target": "summarize"},
+      {"id": "e3", "source": "summarize", "target": "page"}
+    ]
+  }
+}
